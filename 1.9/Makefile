@@ -62,7 +62,7 @@ ifeq ($(SYS), WIN)
 endif
 
 # These must appear after the MAC/WIN-specific ?= statements.
-BLASFLAGS ?=	-L/usr/lib64/atlas -llapack -lblas -lcblas -latlas
+BLASFLAGS ?=	-llapack -lblas -lcblas
 LDFLAGS ?=	-lm -lpthread -ldl
 ZLIB ?=		-lz
 

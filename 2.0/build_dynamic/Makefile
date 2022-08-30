@@ -87,9 +87,9 @@ CXXFLAGS += -O2
 
 ifdef FORCE_CBLAS_F77
   BASEFLAGS += -DFORCE_CBLAS_F77
-  BLASFLAGS=-llapack -lf77blas -latlas
+  BLASFLAGS=-llapack -lf77blas
 else
-  BLASFLAGS=-llapack -lblas -lcblas -latlas
+  BLASFLAGS=-llapack -lblas -lcblas
 endif
 
 ifdef STATIC_ZLIB

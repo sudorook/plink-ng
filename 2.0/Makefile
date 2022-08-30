@@ -25,7 +25,7 @@ ZLIB		?= -lz
 # replace OBJ with OBJ_NO_ZSTD below
 ZSTD		?=
 
-BLASFLAGS64	?= -llapack -lf77blas -latlas
+BLASFLAGS64	?= -llapack -lf77blas
 ARCH32		?=
 
 # Mandatory flags added to defaults or env settings
